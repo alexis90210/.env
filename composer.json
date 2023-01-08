@@ -1,0 +1,22 @@
+{
+    "name": "hisoka/env",
+    "description": "working with .env file",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hisoka\\Env\\": "src/"
+        },
+        "files": [
+            "src/env.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "alexis90210",
+            "email": "alexisng90210@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
